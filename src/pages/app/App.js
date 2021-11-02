@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import styled from 'styled-components';
-import narutoImg from '../../images/naruto.png';
+import luffyImg from '../../images/luffy.png';
 import jutsoSound from '../../sounds/jutso.mp3';
 import { Quotes } from '../../components';
 import { getQuote } from '../../services';
@@ -34,7 +34,7 @@ export function App() {
   return (
     <Content>
       <Quotes {...quote} onUpdate={onUpdate} />
-      <NarutoImg alt="Naruto holding a kunai" src={narutoImg} />
+      <LuffyImg alt="Luffy Wano" src={luffyImg} />
     </Content>
   );
 }
@@ -42,14 +42,15 @@ export function App() {
 const Content = styled.div`
   height: 100vh;
   box-sizing: border-box;
-  padding: 0 50px;
+  padding: 0 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 `;
 
-const NarutoImg = styled.img`
-  max-width: 50vw;
+const LuffyImg = styled.img`
+  max-width: 40vw;
+  max-height: 80vh;
   align-self: flex-end;
 `;

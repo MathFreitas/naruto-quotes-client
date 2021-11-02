@@ -1,5 +1,5 @@
-# Naruto Quotes Client
-Naruto quotes generator client for DIO lesson.
+# One Piece Quotes Client
+Luffy quotes generator client for DIO lesson.
 
 ![screenshot](screenshot.png?raw=true "screenshot")
 

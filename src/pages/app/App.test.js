@@ -15,7 +15,7 @@ beforeAll(() => server.listen());
 afterEach(() => server.resetHandlers());
 afterAll(() => server.close());
 
-test('renders a button and naruto image', () => {
+test('renders a button and luffy image', () => {
   render(<App />);
 
   const buttonEl = screen.getByRole('button');
